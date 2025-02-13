@@ -1,0 +1,15 @@
+{
+  "tools": {
+    "tool1": {
+      "name": "Forensic Tool One",
+      "script": "../tools/tool1/install.sh",
+      "validation_cmd": "forensic_tool_one --version"
+    },
+    "tool2": {
+      "name": "Forensic Tool Two",
+      "script": "../tools/tool2/install.sh",
+      "validation_cmd": "forensic_tool_two --version"
+    }
+  }
+}
+
